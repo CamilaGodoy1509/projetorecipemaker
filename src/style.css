@@ -1,0 +1,375 @@
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #E1B7AC;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #E1B7AC;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: #F55F64;
+    transition: ease-in-out 1s;
+    text-shadow: #ccc 1px 1px;
+}
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1581344535097-4160879a1b28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: 20vh;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 72px;
+    color:#fff;
+    text-shadow: #ccc 1px 1px;
+}
+
+main {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#sec1 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 90vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #ccc 3px 3px;
+    
+}
+
+#sec2 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 90vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #ccc 3px 3px;
+    overflow: auto;
+}
+
+label {
+    color: #E1B7AC;
+    font-size: 24px;
+    text-shadow: #ccc 1px 1px;
+
+}
+
+input {
+    font-family: 'Dancing Script', cursive;
+    background-color: #fff;
+    border: #E1B7AC solid 1px;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px;
+    width: 40%;
+}
+
+textarea {
+    font-family: 'Dancing Script', cursive;
+    background-color: #fff;
+    border: #E1B7AC solid 1px;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px;
+    width: 40%;
+    height: 20%;
+    resize: none;
+}
+
+button {
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #E1B7AC;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #F55F64;
+    transition: ease-in-out 0.3s;
+    text-shadow: #ccc 1px 1px;
+
+}
+
+#div {
+    font-size: 14px;
+}
+
+#div2 {
+    font-size: 14px;
+}
+
+section button {
+    margin: 5px;
+    font-size: 14px;
+}
+
+#div3 {
+    font-size: 14px;
+}
+
+
+@media (max-width: 370px) {
+
+    a {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+
+    header h1 {
+       font-size: 32px;
+   }
+
+   main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#sec1 {
+    font-size: 14px;
+    width: 70vw;
+    height: 90vh
+}
+
+#sec2 {
+    font-size: 14px;
+    width: 70vw;
+    height: 90vh
+}
+
+
+label {
+    font-size: 16px;
+}
+
+button {
+    padding: 5px;
+    font-size: 16px;
+}
+
+input {
+    width: 30vw;
+    font-size: 12px;
+}
+
+textarea {
+    width: 40vw;
+    font-size: 12px;
+}
+
+section button {
+    font-size: 12px;
+}
+
+}
+
+@media (max-width: 375px) {
+
+    a {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+
+    header h1 {
+       font-size: 36px;
+   }
+
+   main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#sec1 {
+    font-size: 16px;
+    width: 70vw;
+    height: 90vh
+}
+
+#sec2 {
+    font-size: 14px;
+    width: 70vw;
+    height: 90vh
+}
+
+
+label {
+    font-size: 18px;
+}
+
+button {
+    padding: 5px;
+    font-size: 16px;
+}
+
+input {
+    width: 30vw;
+    font-size: 12px;
+}
+
+textarea {
+    width: 40vw;
+    font-size: 12px;
+}
+
+section button {
+    font-size: 12px;
+}
+
+}
+
+
+@media (max-width: 370px) {
+
+    a {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+
+    header h1 {
+       font-size: 32px;
+   }
+
+   main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#sec1 {
+    font-size: 14px;
+    width: 70vw;
+    height: 90vh
+}
+
+#sec2 {
+    font-size: 14px;
+    width: 70vw;
+    height: 90vh
+}
+
+
+label {
+    font-size: 16px;
+}
+
+button {
+    padding: 5px;
+    font-size: 16px;
+}
+
+input {
+    width: 30vw;
+    font-size: 12px;
+}
+
+textarea {
+    width: 40vw;
+    font-size: 12px;
+}
+
+section button {
+    font-size: 12px;
+}
+
+}
+
+@media (max-width: 414px) {
+
+    a {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+
+    header h1 {
+       font-size: 36px;
+   }
+
+   main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#sec1 {
+    font-size: 16px;
+    width: 70vw;
+    height: 90vh
+}
+
+#sec2 {
+    font-size: 14px;
+    width: 70vw;
+    height: 90vh
+}
+
+
+label {
+    font-size: 18px;
+}
+
+button {
+    padding: 5px;
+    font-size: 16px;
+}
+
+input {
+    width: 30vw;
+    font-size: 12px;
+}
+
+textarea {
+    width: 40vw;
+    font-size: 12px;
+}
+
+section button {
+    font-size: 12px;
+}
+
+}

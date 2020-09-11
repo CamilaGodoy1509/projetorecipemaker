@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+    <header>
+        <h1>Recipe Maker</h1>
+    </header>
+</center>
+
+    <main>
+        
+        <div id="sec1">
+            <label for="titulo">Nome da Receita:</label>
+            <input type="text" name="" id="titulo">
+            <button id="btn">Salvar título</button>
+            <br>
+            <label for="titulo">Ingredientes:</label>
+            <input type="text" name="" id="ing">
+            <br>
+            <label for="titulo">Quantidade:</label>
+            <input type="text" name="" id="qtd">
+            <button id="btn2">Adicionar Ingrediente</button>
+            <br>
+            <label for="titulo">Instruções:</label>
+            <textarea name="" id="inst"></textarea>
+            <button id="btn4">Adicionar Instrução</button>
+        </div>
+        <br>
+        <div id="sec2">
+            <div id="div"></div><br>
+            <div id="div2"></div><br>
+            <ul id="div3"></ul><br>
+            <a href='#' id="link" onclick="salvarReceita()">Download</a>
+        
+        
+    </main>
+
+
+    <b style="font-size: 15px;" id="obs">OBS: Para mudar as instruções de ordem, é só arrastá-las</b>
+    <script>
+        $("#div3").sortable();
+    </script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
